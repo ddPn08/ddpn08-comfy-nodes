@@ -1,0 +1,9 @@
+from .nodes import utils
+
+NODE_CLASS_MAPPINGS = {
+    **utils.NODE_CLASS_MAPPINGS,
+}
+
+NODE_DISPLAY_NAME_MAPPINGS = {
+    **utils.NODE_DISPLAY_NAME_MAPPINGS,
+}
